@@ -351,6 +351,8 @@ enum TransportType {
   Tls = 2, // TLS transport (secure)
   Dtls = 3, // DTLS transport (secure UDP)
 }
+// Use TLS if SIP is not connecting with UDP or TCP because
+// Some countries has blocked their ports due to scam call centres.
 ```
 
 ## 🐛 Troubleshooting
@@ -386,7 +388,99 @@ This project is licensed under the GPL-3.0-or-later License - see the [LICENSE](
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please open issues or pull requests on GitHub.
+We welcome contributions to react-native-sip-smooth! Here's how you can help:
+
+### Getting Started
+
+1. **Fork the repository** on GitHub
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/your-username/react-native-sip-smooth.git
+   cd react-native-sip-smooth
+   ```
+3. **Install dependencies**:
+   ```bash
+   yarn install
+   ```
+
+### Development Workflow
+
+1. **Create a feature branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+2. **Make your changes** following our coding standards
+3. **Test your changes** thoroughly
+4. **Build the project**:
+   ```bash
+   yarn build
+   ```
+5. **Commit your changes**:
+   ```bash
+   git commit -m "feat: add your feature description"
+   ```
+6. **Push to your fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+7. **Create a Pull Request** on GitHub
+
+### Contribution Guidelines
+
+#### Code Standards
+
+- Follow TypeScript best practices
+- Use meaningful variable and function names
+- Add proper type definitions for all public APIs
+- Write clear, concise comments for complex logic
+
+#### Commit Messages
+
+We follow conventional commit format:
+
+- `feat:` - New features
+- `fix:` - Bug fixes
+- `docs:` - Documentation changes
+- `style:` - Code style changes (formatting, etc.)
+- `refactor:` - Code refactoring
+- `test:` - Adding or updating tests
+- `chore:` - Maintenance tasks
+
+#### Testing
+
+- Test your changes on both iOS and Android
+- Ensure existing functionality isn't broken
+- Add tests for new features when applicable
+
+#### Documentation
+
+- Update README.md if adding new features
+- Add JSDoc comments for new public APIs
+- Include usage examples for complex features
+
+### Reporting Issues
+
+When reporting bugs or requesting features:
+
+1. **Search existing issues** first to avoid duplicates
+2. **Use the issue templates** when available
+3. **Provide detailed information**:
+   - React Native version
+   - iOS/Android version
+   - Device information
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Relevant code snippets or logs
+
+### Questions and Support
+
+- **GitHub Issues**: For bug reports and feature requests
+- **Email**: ammarabid890@gmail.com for general questions
+- **Documentation**: Check the README and API documentation first
+
+### Code of Conduct
+
+Please be respectful and constructive in all interactions. We're here to build something great together!
 
 ## 📞 Support
 
