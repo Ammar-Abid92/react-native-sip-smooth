@@ -1,6 +1,6 @@
 GPL v3 License
 
-Copyright (C) 2025 AmmarCF
+Copyright (C) 2025 Ammar-Abid92
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

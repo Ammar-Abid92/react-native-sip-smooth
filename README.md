@@ -29,21 +29,24 @@ A comprehensive React Native library providing SIP/VoIP functionality using the 
 
 ### 1. Install the Package
 
+```
+
 yarn add react-native-sip-smooth
 
 # or
 
 npm install react-native-sip-smooth
 
-````
+```
 
-### 3. iOS Setup
+### 2. iOS Setup
 
-```bash
+```
 cd ios && pod install
-````
 
-### 4. Android Setup
+```
+
+### 3. Android Setup
 
 No additional setup required for Android.
 
@@ -113,11 +116,11 @@ Initialize the Linphone SDK with configuration options.
 
 ```typescript
 interface InitializeOptions {
-  userAgent?: string; // Custom user agent string
-  platform?: string; // Platform identifier
-  version?: string; // Application version
-  instanceId?: string; // Unique instance identifier
-  callTimeout?: number; // Call timeout in seconds
+  userAgent: string; // Custom user agent string (e.g: android/1.0)
+  platform: string; // Platform identifier
+  version: string; // Application version
+  instanceId: string; // Unique instance identifier (unique id for each app instance)
+  callTimeout: number; // Call timeout in seconds (provide in seconds )
 }
 ```
 
@@ -367,18 +370,6 @@ enum TransportType {
    - Check microphone permissions
    - Verify audio device settings
    - Test with different audio routes
-
-4. **Package conflicts with react-native-leenphone**
-   - Completely uninstall `react-native-leenphone`: `npm uninstall react-native-leenphone`
-   - Clean build artifacts: `npx react-native clean`
-   - Remove build directories: `rm -rf android/app/build android/build`
-
-- Reinstall this package: `npm install react-native-sip-smooth@latest`
-
-5. **Android build errors (duplicate classes)**
-   - Follow step 4 above to remove conflicts
-   - Ensure only one SIP package is installed
-   - Clean and rebuild: `cd android && ./gradlew clean && cd .. && npx react-native run-android`
 
 ### Debug Mode
 
