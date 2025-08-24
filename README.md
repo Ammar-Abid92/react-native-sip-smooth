@@ -48,7 +48,25 @@ cd ios && pod install
 
 ### 3. Android Setup
 
-No additional setup required for Android.
+Add the following to your `android/build.gradle` file (project level):
+
+````gradle
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url 'https://www.jitpack.io' }
+
+        maven {
+            name "linphone.org maven repository"
+            url "https://linphone.org/maven_repository/"
+            content {
+                includeGroup "org.linphone"
+            }
+        }
+    }
+}
 
 ## 🔧 Configuration
 
@@ -61,7 +79,7 @@ Add the following to your `Info.plist`:
 <string>This app needs access to microphone for voice calls</string>
 <key>NSCameraUsageDescription</key>
 <string>This app needs access to camera for video calls</string>
-```
+````
 
 ### Android Permissions
 
