@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:2:70-98
+		INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:3:3-52
+	android:hardwareAccelerated
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:3:16-50
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:4:3-64
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:4:20-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:5:3-68
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:5:20-66
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:6:3-77
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:6:20-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:7:3-76
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:7:20-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:8:3-65
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:8:20-63
+uses-feature#android.hardware.telephony
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:10:3-85
+	android:required
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:10:59-83
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:10:17-58
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:11:3-63
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:11:20-61
+uses-feature#android.hardware.camera
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:13:3-82
+	android:required
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:13:56-80
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:13:17-55
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:14:3-65
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:14:20-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:15:3-72
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:15:20-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:17:3-65
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:17:20-63
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:18:3-72
+	android:name
+		ADDED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:18:20-70
+uses-sdk
+INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml
+INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml

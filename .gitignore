@@ -1,0 +1,16 @@
+.npmrc
+node_modules/
+package-lock.json
+yarn-error.log
+.pnp.*
+.pnp.js
+.DS_Store
+*.log
+*.tgz
+*.swp
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+*.cache
+coverage/

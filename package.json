@@ -1,0 +1,80 @@
+{
+  "name": "react-native-sip-smooth",
+  "version": "1.0.1",
+  "description": "React Native SIP/VoIP library using Linphone SDK. Advanced call management, handling multiple calls and call transferring features.",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "react-native-sip-smooth.podspec",
+    "!lib/typescript/example",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "test": "jest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "build": "bob build",
+    "prepack": "bob build",
+    "release": "release-it",
+    "clean": "del-cli lib"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "linphone",
+    "sip",
+    "voip",
+    "calls",
+    "telephony",
+    "softphone"
+  ],
+  "repository": "https://github.com/Ammar-Abid92/react-native-sip-smooth",
+  "author": "Muhammad Ammar Abid <ammarabid890@gmail.com> (https://github.com/Ammar-Abid92)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ammar-Abid92/react-native-sip-smooth/issues"
+  },
+  "homepage": "https://github.com/Ammar-Abid92/react-native-sip-smooth#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-device-info": ">=10.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "del-cli": "^6.0.0",
+    "eslint": "^9.33.0",
+    "jest": "^30.0.5",
+    "prettier": "^3.6.2",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-builder-bob": "^0.20.4",
+    "release-it": "^19.0.4",
+    "typescript": "^4.5.2"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  }
+}

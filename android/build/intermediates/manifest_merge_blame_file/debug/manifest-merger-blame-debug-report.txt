@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactnativesip" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:4:3-64
+7-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:4:20-62
+8    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+8-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:5:3-68
+8-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:5:20-66
+9    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+9-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:6:3-77
+9-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:6:20-75
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:7:3-76
+10-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:7:20-74
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:8:3-65
+11-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:8:20-63
+12    <!-- Needed to allow Linphone to install on tablets, since android.permission.CALL_PHONE implies android.hardware.telephony is required -->
+13    <uses-feature
+13-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:10:3-85
+14        android:name="android.hardware.telephony"
+14-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:10:17-58
+15        android:required="false" />
+15-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:10:59-83
+16
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:11:3-63
+17-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:11:20-61
+18    <!-- Needed to allow Linphone to install on tablets, since android.permission.CAMERA implies android.hardware.camera and android.hardware.camera.autofocus are required -->
+19    <uses-feature
+19-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:13:3-82
+20        android:name="android.hardware.camera"
+20-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:13:17-55
+21        android:required="false" />
+21-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:13:56-80
+22
+23    <uses-permission android:name="android.permission.READ_LOGS" />
+23-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:14:3-65
+23-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:14:20-63
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:15:3-72
+24-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:15:20-70
+25    <!-- Needed to route the audio to the bluetooth headset if available -->
+26    <uses-permission android:name="android.permission.BLUETOOTH" />
+26-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:17:3-65
+26-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:17:20-63
+27    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+27-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:18:3-72
+27-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:18:20-70
+28
+29    <application android:hardwareAccelerated="true" />
+29-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:3:3-52
+29-->/Users/ammarcf/Desktop/Dataphone/dataphone-app/node_modules/react-native-leenphone/android/src/main/AndroidManifest.xml:3:16-50
+30
+31</manifest>
