@@ -1,6 +1,6 @@
 {
   "name": "react-native-sip-smooth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native SIP/VoIP library using Linphone SDK. Advanced call management, handling multiple calls and call transferring features.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
